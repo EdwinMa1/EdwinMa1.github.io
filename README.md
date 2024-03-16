@@ -1,2 +1,1 @@
-# EdwinMa1.github.io 
- Personal Website
+# EdwinMa1.github.io
