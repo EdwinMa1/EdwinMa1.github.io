@@ -2,7 +2,7 @@
     $(document).ready(function() {
         $('.chart').horizBarChart({
             selector: '.bar',
-            speed: 1000
+            speed: 950
         });
 
 
