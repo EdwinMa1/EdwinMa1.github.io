@@ -174,7 +174,7 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 @font-face {
-    font-family: 'Mrs Sheppards';
+    font-family: titleFont;
     src: url('http://fonts.googleapis.com/css?family=Mrs+Sheppards'); 
     font-weight: normal;
     font-style: normal;
@@ -188,8 +188,8 @@ hr.star-primary:after {
     text-transform: capitalize!important;
     color: #222!important;
     position: relative;
-    font-family: 'Mrs Sheppards', cursive!important;
-    right: -25px;
+    font-family: titleFont, cursive!important;
+    right: -18px;
     
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
