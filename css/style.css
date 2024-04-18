@@ -176,6 +176,7 @@ hr.star-primary:after {
 .navbar-brand {
     font-size: 2.8em!important;
     font-weight: 100!important;
+    font-style: normal;
     text-transform: capitalize!important;
     color: #222!important;
     position: relative;
