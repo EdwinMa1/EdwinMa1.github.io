@@ -173,10 +173,15 @@ hr.star-primary:after {
 .img-centered {
     margin: 0 auto;
 }
+@font-face {
+    font-family: 'Mrs Sheppards';
+    src: url(); 
+    font-weight: normal;
+    font-style: normal;
+}
 .navbar-brand {
     font-size: 2.8em!important;
-    font-weight: normal!important;
-    font-style: normal;
+    font-weight: 100!important;
     text-transform: capitalize!important;
     color: #222!important;
     position: relative;
@@ -1236,13 +1241,26 @@ SKILL
 PORTFOLIO
 */
 
-.pContainer {
-    width: 45%;
+.pContainer1 {
+    width: 49.33%;
     aspect-ratio: 1.4;
     display: inline-block;
+    padding: 0.5%;
 }
 
-.pContainer:hover > .flipcard {
+.pContainer2 {
+    width: 32.5%;
+    aspect-ratio: 1.4;
+    display: inline-block;
+    
+}
+
+.pContainer1:hover > .flipcard {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.pContainer2:hover > .flipcard {
     cursor: pointer;
     transform: rotateY(180deg);
 }
