@@ -182,6 +182,9 @@ hr.star-primary:after {
     position: relative;
     font-family: 'Mrs Sheppards', cursive!important;
     right: -25px;
+    -webkit-font-smoothing: antialiased;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color: #111!important;
