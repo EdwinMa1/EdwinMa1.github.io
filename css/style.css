@@ -37,7 +37,7 @@ p.small {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    color: #22272A;
+    color: #ffffff;
 }
 small, .small {
     font-size: 65%!important;
@@ -1319,6 +1319,21 @@ PORTFOLIO
     overflow: hidden;
     z-index: 0;
     font-size: clamp(6px, 1.1vw, 20px);
+    line-height: clamp(12px, 2.7vw, 80px);
+}
+
+.back h6 {
+    text-align: left;
+    color: #ffffff;
+    height: 100%;
+    width: 100%; 
+    padding-left: 1.8vw;
+    padding-right: 1.8vw;
+    padding-bottom: 1.2vw;
+    padding-top: 0.5vw;
+    overflow: hidden;
+    z-index: 0;
+    font-size: clamp(6px, 0.9vw, 15px);
     line-height: clamp(12px, 2.7vw, 80px);
 }
 
