@@ -1306,8 +1306,8 @@ PORTFOLIO
     padding: 1.8vw;
     overflow: hidden;
     z-index: 0;
-    font-size: clamp(6px, 1.4vw, 20px);
-    line-height: clamp(12px, 2.7vw, 80px);
+    font-size: clamp(6px, 1.4vw, 35px);
+    line-height: clamp(10px, 2.3vw, 80px);
 }
 
 .back h5 {
@@ -1318,8 +1318,8 @@ PORTFOLIO
     padding: 1.8vw;
     overflow: hidden;
     z-index: 0;
-    font-size: clamp(6px, 1.1vw, 20px);
-    line-height: clamp(12px, 2.7vw, 80px);
+    font-size: clamp(6px, 1.1vw, 35px);
+    line-height: clamp(12px, 2.25vw, 80px);
 }
 
 .back h6 {
@@ -1330,11 +1330,11 @@ PORTFOLIO
     padding-left: 1.8vw;
     padding-right: 1.8vw;
     padding-bottom: 1.2vw;
-    padding-top: 0.5vw;
+    padding-top: 0px;
     overflow: hidden;
     z-index: 0;
-    font-size: clamp(6px, 0.9vw, 15px);
-    line-height: clamp(12px, 2.7vw, 80px);
+    font-size: clamp(10px, 1.3vw, 35px);
+    line-height: clamp(5px, 2.3vw, 80px);
 }
 
 #info {
@@ -1460,6 +1460,41 @@ PORTFOLIO
     #portfoliolist .portfolio {
         width: 48%;
         margin: 1%;
+    }
+    .back p {
+        text-align: left;
+        color: #ffffff;
+        height: 100%;
+        width: 100%;
+        padding: 1.8vw;
+        overflow: hidden;
+        z-index: 0;
+        font-size: clamp(6px, 2vw, 20px);
+        line-height: clamp(12px, 3.8vw, 80px);
+    }
+    .back h5 {
+        text-align: left;
+        color: #ffffff;
+        height: 100%;
+        width: 100%;
+        padding: 1.8vw;
+        overflow: hidden;
+        z-index: 0;
+        font-size: clamp(6px, 1.6vw, 20px);
+        line-height: clamp(12px, 2.7vw, 80px);
+    }
+    .back h6 {
+        text-align: left;
+        color: #ffffff;
+        height: 100%;
+        width: 100%;
+        padding-top: 0.2vw;
+        padding-left: 1.8vw;
+        padding-right: 1.8vw;
+        overflow: hidden;
+        z-index: 0;
+        font-size: clamp(6px, 1.8vw, 20px);
+        line-height: clamp(12px, 3.2vw, 80px);
     }
     #ads {
         display: none;
