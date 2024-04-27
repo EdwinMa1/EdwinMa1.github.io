@@ -1310,6 +1310,18 @@ PORTFOLIO
     line-height: clamp(12px, 2.7vw, 80px);
 }
 
+.back h5 {
+    text-align: left;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    padding: 1.8vw;
+    overflow: hidden;
+    z-index: 0;
+    font-size: clamp(6px, 1.1vw, 20px);
+    line-height: clamp(12px, 2.7vw, 80px);
+}
+
 #info {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
