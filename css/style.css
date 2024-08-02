@@ -945,6 +945,7 @@ footer .footer-col {
 .nest-address {
     background: #1abc9c;
     padding: 20px;
+    opacity: .83
 }
 ::-webkit-input-placeholder {
     color: #000!important;
