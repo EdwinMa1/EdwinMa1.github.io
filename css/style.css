@@ -1180,6 +1180,7 @@ SKILL
 }
 .skill-desc p {
     padding: 3% 10% 0;
+    font: 24px Raleway;
     color: #fff;
 }
 .chart-horiz .chart {

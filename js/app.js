@@ -1,4 +1,3 @@
-
     $(document).ready(function() {
         $('.chart').horizBarChart({
             selector: '.bar',
@@ -23,7 +22,7 @@
         $(window).scroll(function() {
             stickyNav();
         });
-
+        
         //slideout
         var test = true;
 
