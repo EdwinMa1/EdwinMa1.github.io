@@ -1291,7 +1291,7 @@ PORTFOLIO
 }
 
 .back {
-    background-color: #3a3a3a;
+    background-color: #a28686;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -1332,7 +1332,7 @@ PORTFOLIO
     padding-left: 1.8vw;
     padding-right: 1.8vw;
     padding-bottom: 1.2vw;
-    padding-top: 0px;
+    padding-top: 1.5vw;
     overflow: hidden;
     z-index: 0;
     font-size: clamp(10px, 1.3vw, 35px);
