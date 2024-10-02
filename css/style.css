@@ -1180,7 +1180,8 @@ SKILL
 }
 .skill-desc p {
     padding: 3% 10% 0;
-    font: 24px Raleway!important;
+    /* font: 24px Raleway!important; */
+    font-size: 24px;
     color: #fff!important;
     text-transform: capitalize!important;
     position: relative;
