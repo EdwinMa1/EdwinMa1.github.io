@@ -1180,8 +1180,12 @@ SKILL
 }
 .skill-desc p {
     padding: 3% 10% 0;
-    font: 24px Raleway;
-    color: #fff;
+    font: 24px Raleway!important;
+    color: #fff!important;
+    text-transform: capitalize!important;
+    position: relative;
+    /* font-family: Raleway!important; */
+    
 }
 .chart-horiz .chart {
     width: 85%;
