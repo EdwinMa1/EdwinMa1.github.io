@@ -21,7 +21,7 @@ body {
     -webkit-transition: all 0.2s ease-out 0s;
     -moz-transition: all 0.2s ease-out 0s;
     -ms-transition: all 0.2s ease-out 0s;
-    # -o-transition: all 0.2s ease-out 0s;
+    -o-transition: all 0.2s ease-out 0s;
     transition: all 0.2s ease-out 0s;
 }
 a {
@@ -1178,6 +1178,15 @@ SKILL
 .skill-desc h3 {
     font-weight: normal;
 }
+@font-face {
+    font-family: skillSub;
+    src: url('https://fonts.gstatic.com/s/raleway/v34/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrEVIT9d0c8.woff2'); 
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
 .skill-desc p {
     padding: 3% 10% 0;
     /* font: 24px Raleway!important; */
@@ -1185,7 +1194,7 @@ SKILL
     color: #fff!important;
     text-transform: capitalize!important;
     position: relative;
-    font-family: Raleway!important;
+    font-family: skillSub!important;
     
 }
 .chart-horiz .chart {
