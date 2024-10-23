@@ -1305,7 +1305,7 @@ PORTFOLIO
 }
 
 .back {
-    background-color: #a28686;
+    background-color: #22a5f0;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
