@@ -1812,3 +1812,122 @@ PORTFOLIO
     z-index: 1;
 }
 
+/* ============================================
+   PHASE 1 & 2 REDESIGN STYLES
+   ============================================ */
+
+/* Featured Experience (Amazon) */
+.experience-featured {
+    background: rgba(255, 153, 0, 0.08);
+    border-left: 4px solid #FF9900;
+    padding: 15px 20px;
+    margin: 10px 0 20px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.experience-featured h4 {
+    color: #FF9900 !important;
+}
+
+/* Compact Experience Layout */
+.experience-compact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 30px;
+    margin-top: 10px;
+}
+
+.experience-compact span {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Secondary Education (reduced visual weight) */
+.education-secondary {
+    opacity: 0.85;
+}
+
+.education-secondary h4 {
+    font-size: 24px;
+}
+
+/* ============================================
+   SKILLS GRID LAYOUT (Phase 2)
+   ============================================ */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    padding: 20px 5%;
+}
+
+.skill-category {
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.skill-category-title {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Skill Tags */
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tag {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.2s ease;
+}
+
+.skill-tag:hover {
+    background: rgba(255, 255, 255, 0.35);
+    transform: translateY(-2px);
+}
+
+/* Highlighted skills (most proficient/recent) */
+.skill-tag.skill-highlight {
+    background: rgba(255, 153, 0, 0.9);
+    font-weight: 600;
+}
+
+/* Interests category - different style */
+.skill-tags.interests .skill-tag {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-style: italic;
+}
+
+/* Mobile responsiveness for skills */
+@media (max-width: 767px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+        padding: 10px 3%;
+    }
+
+    .skill-tag {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .experience-compact {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
