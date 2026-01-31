@@ -1906,12 +1906,7 @@ PORTFOLIO
     font-weight: 600;
 }
 
-/* Interests category - different style */
-.skill-tags.interests .skill-tag {
-    background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    font-style: italic;
-}
+/* Interests category - same style as others */
 
 /* Mobile responsiveness for skills */
 @media (max-width: 767px) {
