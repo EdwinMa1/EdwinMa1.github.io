@@ -1833,13 +1833,24 @@ PORTFOLIO
 .experience-compact {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px 30px;
+    gap: 20px 40px;
     margin-top: 10px;
 }
 
-.experience-compact span {
-    font-size: 14px;
-    color: #666;
+.compact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.compact-role {
+    font-size: 15px;
+    color: #333;
+}
+
+.compact-date {
+    font-size: 13px;
+    color: #888;
 }
 
 /* Secondary Education (reduced visual weight) */
